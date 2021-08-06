@@ -5,7 +5,6 @@ using System;
 using System.Threading;
 
 //designed by balaji
-//day 3
 namespace UnitTestProject
 {
     public class CalcTests
