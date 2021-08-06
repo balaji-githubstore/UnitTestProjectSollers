@@ -6,10 +6,16 @@ using System.Threading;
 
 //designed by balaji
 //day 3
+
 namespace UnitTestProject
 {
     public class CalcTests
     {
+        [Test]
+        public void TestDetail()
+        {
+            Assert.Fail();
+        }
         [Test,MaxTime(1000),Ignore("not req",Until ="2021-08-04"),Retry(2)]
         public void AddMethodTest()
         {
