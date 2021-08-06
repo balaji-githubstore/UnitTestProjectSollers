@@ -4,6 +4,8 @@ using Sollers.Calculator;
 using System;
 using System.Threading;
 
+//designed by balaji
+
 namespace UnitTestProject
 {
     public class CalcTests
